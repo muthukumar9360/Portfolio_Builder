@@ -1,12 +1,50 @@
-# React + Vite
+# 🎨 React Portfolio Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic and interactive portfolio builder application developed using **React**.  
+Users can fill out their details, preview their portfolio, and choose from multiple templates to generate a personalized, professional-looking portfolio website.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 📝 Multi-step form to collect user details  
+- 🔍 Live portfolio preview  
+- 🎨 Multiple template selection  
+- ⚛️ Component-based structure  
+- 🔄 Smooth state management using React hooks  
+- 📱 Fully responsive UI  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📁 File Structure
+
+- `src/App.jsx` – Main application logic and step routing  
+- `src/components/Form.jsx` – User input form component  
+- `src/components/PortfolioPreview.jsx` – Live preview of portfolio  
+- `src/components/TemplateSelector.jsx` – Template selection UI  
+- `src/assets/` – Images, icons, template previews  
+
+---
+
+## 🛠️ Technologies Used
+
+- React  
+- JavaScript (ES6+)  
+- Tailwind CSS  
+- Vite (or CRA based on your setup)
+
+---
+
+## 🚀 Getting Started
+
+```bash
+1. Clone the repository : git clone https://github.com/your-username/react-portfolio-builder.git
+
+2. Install dependencies : npm install
+
+3. Run the development server : npm run dev
+
+4. Open the app in your browser : http://localhost:5173/
+
+```
+---
